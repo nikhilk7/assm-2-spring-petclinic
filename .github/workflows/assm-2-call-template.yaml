@@ -21,7 +21,7 @@ on:
 
 jobs:
   call-reusable-workflow:
-    uses: nikhilk7/github-actions-template/.github/workflows/reusable-docker-build.yml@main
+    uses: nikhilk7/github-actions-template/.github/workflows/reusable-docker-build.yaml@main
 
     with:
       image_name: spring-petclinic
