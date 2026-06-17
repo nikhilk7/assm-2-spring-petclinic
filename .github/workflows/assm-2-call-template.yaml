@@ -10,7 +10,7 @@ jobs:
     uses: nikhilk7/github-actions-template/.github/workflows/reusable-docker-build.yaml@main
 
     with:
-      image_name: spring-petclinic
+      image_repository: assm2-spring-petclinic
       build_command: ./mvnw clean package
       dockerfile_path: Dockerfile
 
