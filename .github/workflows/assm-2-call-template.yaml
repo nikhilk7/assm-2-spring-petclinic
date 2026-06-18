@@ -14,6 +14,14 @@ jobs:
       build_command: ./mvnw clean package
       dockerfile_path: Dockerfile
 
+# Added step for Assignemt-4 SonarCloud Integration - Part-B
+      sonar_project_key: nikhilk7_assm-2-spring-petclinic
+# Added step for Assignemt-4 SonarCloud Integration - Part-B end
+
+# Dockerhub secrets for login
     secrets:
       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
+
+# Added step for Assignemt-4 SonarCloud Integration - Part-B
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
