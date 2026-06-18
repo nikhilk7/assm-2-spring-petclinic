@@ -15,7 +15,7 @@ jobs:
       dockerfile_path: Dockerfile
 
 # Added step for Assignemt-4 SonarCloud Integration - Part-B
-      sonar_project_key: nikhilk7_assm-2-spring-petclinic
+      sonar_project_key: nikhilk7_petclinic
 # Added step for Assignemt-4 SonarCloud Integration - Part-B end
 
 # Dockerhub secrets for login
